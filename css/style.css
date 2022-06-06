@@ -43,9 +43,7 @@ h4,
 p {
   margin: 0px;
 }
-.header {
-  border-bottom: 1px solid var(--bg-line-color);
-}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -72,6 +70,9 @@ ul {
   display: flex;
   align-items: baseline;
 }
+.header-border {
+  border-bottom: 1px solid var(--bg-line-color);
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -86,9 +87,7 @@ ul {
 .cancel-padding {
   padding-top: 0px;
 }
-.container-nav {
-  border-bottom: 1px solid var(--bg-line-color);
-}
+
 .logo-up {
   font-family: var(--secondary-font);
   font-weight: 700;
